@@ -1,0 +1,105 @@
+.navbar {
+  height: 80px;
+  border-bottom: 0.01px solid gainsboro;
+  background-color: #fff;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo img {
+  width: 130px;
+  height: 65px;
+  cursor: pointer;
+}
+.search {
+  width: 50%;
+  position: relative;
+  height: 35px;
+}
+.search input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid #008dff;
+  font-size: 15px;
+  position: absolute;
+  left: 3px;
+  z-index: 10;
+}
+.search button {
+  padding: 11px 25px;
+  outline: none;
+  border: none;
+  background-color: #008dff;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 10px;
+  position: absolute;
+  margin-right: 10px;
+  right: 0;
+  cursor: pointer;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 380;
+  cursor: pointer;
+  color: #444;
+  position: relative;
+}
+.icon:hover {
+  color: #008dff;
+}
+.icon i {
+  font-size: 25px;
+}
+
+/* Category styles */
+
+.categories {
+  background-color: #fff;
+  box-shadow: 1px 6px 5px -6px rgba(162, 170, 176, 0.69);
+}
+.wraper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  font-weight: 500;
+  font-size: 15px;
+}
+.category:hover {
+  color: #008dff;
+  cursor: pointer;
+}
+.category {
+  display: flex;
+  align-items: center;
+}
+.category i {
+  font-size: 20px;
+  margin-right: 5px;
+}
+.count-data {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #008dff;
+  color: #fff;
+  font-weight: 500;
+  position: absolute;
+  top: -5px;
+  right: 0;
+}

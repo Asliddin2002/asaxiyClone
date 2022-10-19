@@ -1,0 +1,29 @@
+.main {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+
+.left-side-wraper {
+  width: 25%;
+  box-sizing: border-box;
+  flex-shrink: initial;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.main-products-wraper {
+  width: 75%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.width {
+  width: 21%;
+}
+.width2 {
+  width: fit-content;
+}

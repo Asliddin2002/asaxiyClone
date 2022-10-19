@@ -1,0 +1,25 @@
+.about {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px 30px;
+  text-align: left;
+  margin-top: 20px;
+}
+.about p {
+  line-height: 25px;
+}
+.about-buttons {
+  border-radius: 20px;
+  border: 0.1px solid gainsboro;
+  padding: 5px 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.about-buttons :nth-child(1) {
+  border-bottom: 0.1px solid gainsboro;
+  padding-bottom: 17px;
+}
+.adress p {
+  padding: 0;
+  margin: 0;
+}
